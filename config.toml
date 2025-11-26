@@ -1,4 +1,6 @@
 baseURL = 'https://alexandrepoupeau.com/personal/'
+canonifyURLs = true
+relativeURLs = false
 languageCode = 'en-us'
 title = 'Alexandre Poupeau - Website'
 defaultContentLanguage = 'en'
