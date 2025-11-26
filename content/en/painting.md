@@ -8,7 +8,7 @@ carousel:
         subinfo: Exposing my artworks
     carousel2:
         info: This page has only one purpose
-        subinfo: Give you the envy to start painting
+        subinfo: To make you want to start painting and meditating
     carousel3:
         info: More Information
         subinfo: Take time for art

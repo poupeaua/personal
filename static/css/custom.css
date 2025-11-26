@@ -24,27 +24,3 @@
 .hidden {
     display: none;
 }
-
-/* tagify */
-
-.tags-look .tagify__dropdown__item{
-    display: inline-block;
-    border-radius: 3px;
-    padding: .3em .5em;
-    border: 1px solid #CCC;
-    background: white;
-    margin: .2em;
-    font-size: .85em;
-    color: black;
-    transition: 0s;
-  }
-  
-  .tags-look .tagify__dropdown__item--active{
-    color: black;
-  }
-  
-  .tags-look .tagify__dropdown__item:hover{
-    color: white;
-    background: rgba(var(--bs-third-rgd));
-    border-color: rgba(var(--bs-third-rgd));
-  }

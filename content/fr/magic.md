@@ -20,7 +20,7 @@ experiences:
     title: Expériences
     cardArtist:
         title: Être Card Artist
-        info:             <p>J'ai commencé à faire des tours de cartes à l'âge de 17 ans. Je pratique la cartomagie depuis plus de 8 ans maintenant.</p>
+        info:             <p>J'ai commencé à faire des tours de cartes à l'âge de 17 ans. Je pratique la cartomagie depuis plus de 12 ans maintenant.</p>
             <p>Tout a commencé en prenant un jeu de cartes à jouer et j'en suis tombé amoureux instantanément. J'ai rapidement acheté mon premier jeu Bicycle, ensuite l'histoire continue.</p>
             <p>Faire des tours de cartes était pour moi une nouvelle façon de créer et d'innover.</p>
             <p><b>A l'heure actuelle, j'ai participé à plus de 30 événements où j'étais engagé pour faire de la magie.</b> J'en tire une certain expérience et je suis désormais confiant afin d'animer n'importe quel type de d'événement.</p>
