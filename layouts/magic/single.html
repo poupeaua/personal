@@ -52,8 +52,8 @@
       </div>
       
       <!-- talkAboutMe video-->
-      <div class="text-center">
-        <iframe class="video-magic" src="https://www.youtube.com/embed/wo8NeQsUL9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="text-center vh-75">
+        <iframe class="w-100 h-100 rounded" src="https://www.youtube.com/embed/wo8NeQsUL9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </section>
@@ -106,11 +106,11 @@
               <div class="divider-custom-line"></div>
           </div>
           <!-- Engage Section Content-->
-          <div class="lead text-center text-secondary">
+          <ul class="lead text-center text-secondary" style="list-style-position: inside;">
             <li>{{ $.Param "engage.list.exp" | safeHTML}}</li>
             <li>{{ $.Param "engage.list.events" | safeHTML }}</li>
             <li>{{ $.Param "engage.list.languages" | safeHTML }}</li>
-          </div>
+          </ul>
       </div>
   </section>
 

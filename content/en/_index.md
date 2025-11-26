@@ -1,7 +1,7 @@
 ---
 Title: Main
 iLove: "Hello, I love"
-listLove: '[ "Cookies", "Computer Science", "Art", "Magic", "Music", "Painting" ]'
+listLove: '[ "Computer Science", "Art", "Magic", "Music", "Painting", "Ecology" ]'
 welcome:
     base: "Welcome"
     content1: "Welcome! I made this little website to share my work in different domains."

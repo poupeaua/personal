@@ -6,11 +6,11 @@ publishDir = 'docs'
 staticDir = 'static'
 
 [params]
-copyright = 'Copyright © Alexandre Poupeau Website 2025'
+author = "Alexandre Poupeau"
 email = "alexandre.poupeau.contact@gmail.com"
 siteName = 'A. Poupeau'
-city = 'México City'
-country = 'MEXICO'
+city = 'Lyon'
+country = 'FRANCE'
 [params.music]
   artistName = "Chill Wind"
   artistImgPath = "/img/music/compo/cw-square-white.png"
@@ -23,6 +23,7 @@ country = 'MEXICO'
     contentDir = "content/en"
     languageName = "English"
     weight = 1
+    copyright = 'All rights reserved.'
     [languages.en.params]
       languageShort = "EN"
       linkedin = 'https://linkedin.com/whoever'
@@ -31,6 +32,7 @@ country = 'MEXICO'
     contentDir = "content/fr"
     languageName = "Français"
     weight = 2
+    copyright = 'Tous droits réservés.'
     [languages.fr.params]
       languageShort = "FR"
       linkedin = 'https://linkedin.com/fr/whoever'
@@ -41,6 +43,7 @@ country = 'MEXICO'
     contentDir = "content/es"
     languageName = "Español"
     weight = 3
+    copyright = 'Todos los derechos reservados.'
     [languages.es.params]
       languageShort = "ES"
 
