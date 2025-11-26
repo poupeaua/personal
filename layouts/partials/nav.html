@@ -10,6 +10,8 @@
                 {{ range where .Site.RegularPages "Params.hidden" "ne" "true" }}
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ .Permalink }}">{{ .Title }}</a></li>
                 {{ end }}
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://anthropocenetimeline.com/{{ .Language }}">Ecology <i class="bi bi-box-arrow-up-right"></i></a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://alexandrepoupeau.com">Pro <i class="bi bi-box-arrow-up-right"></i></a></li>
             </ul>
             {{ partial "languageSwitcher" .}}
         </div>
