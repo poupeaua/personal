@@ -47,4 +47,4 @@ You just have to push the code in master. Two Github Actions CI/CD pipelines tak
 See all the release of Hugo framework here: https://github.com/gohugoio/hugo/releases
 
 hugo version currently used: 
-hugo v0.142.0+extended+withdeploy darwin/arm64 BuildDate=2025-01-22T12:20:52Z VendorInfo=brew
+hugo v0.152.2+extended+withdeploy darwin/arm64 BuildDate=2025-10-24T15:31:49Z VendorInfo=brew
