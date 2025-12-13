@@ -7,19 +7,19 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-        <div class="carousel-item active" style="background-image: url({{ "/img/music/carousel/guitar-zoom.jpg" | relURL }}); background-size: cover; background-position: center;">
+        <div class="carousel-item active" style="background-image: url('{{ .Site.BaseURL }}/img/music/carousel/guitar-zoom.jpg'); background-size: cover; background-position: center;">
             <div class="carousel-caption">
             <h5><a style="text-decoration: none;" href="#guitarCourseSection">{{ $.Param "carousel.carousel1.info" }}</a></h5>
             <p>{{ $.Param "carousel.carousel1.subinfo" }}</p>
             </div>
         </div>
-        <div class="carousel-item" style="background-image: url({{ "/img/music/carousel/home-studio.webp" | relURL }}); background-size: cover; background-position: center;">
+        <div class="carousel-item" style="background-image: url('{{ .Site.BaseURL }}/img/music/carousel/home-studio.webp'); background-size: cover; background-position: center;">
             <div class="carousel-caption">
             <h5><a style="text-decoration: none;" href="#compositionsSection">{{ $.Param "carousel.carousel2.info" }}</a></h5>
             <p>{{ $.Param "carousel.carousel2.subinfo" }}</p>
             </div>
         </div>
-        <div class="carousel-item" style="background-image: url({{ "/img/music/carousel/guitar-and-me.jpg" | relURL }}); background-size: cover; background-position: center;">
+        <div class="carousel-item" style="background-image: url('{{ .Site.BaseURL }}/img/music/carousel/guitar-and-me.jpg'); background-size: cover; background-position: center;">
             <div class="carousel-caption">
             <h5><a style="text-decoration: none;" href="#aboutSection">{{ $.Param "carousel.carousel3.info" }}</a></h5>
             <p>{{ $.Param "carousel.carousel3.subinfo" }}</p>
@@ -70,7 +70,7 @@
                     <div class="row justify-content-center">
                         {{ range $index, $element := (where .Site.Pages "Type" "beginnerGuitarCourse").ByParam "Order" }}
                         <div class="col-xs-6 col-md-4 col-lg-3 mb-5">
-                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}/js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
+                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
                                 <div class="image-text">
                                     <img class="img-fluid" src={{ .Params.Logo }} />
                                 </div>
@@ -93,7 +93,7 @@
                     <div class="row justify-content-center">
                         {{ range $index, $element := (where .Site.Pages "Type" "intermediateGuitarCourse").ByParam "Order" }}
                         <div class="col-xs-6 col-md-4 col-lg-3 mb-5">
-                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}/js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
+                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
                                 <div class="image-text">
                                     <img class="img-fluid" src={{ .Params.Logo }} />
                                 </div>
@@ -115,7 +115,7 @@
                     <div class="row justify-content-center">
                         {{ range $index, $element := (where .Site.Pages "Type" "advancedGuitarCourse").ByParam "Order" }}
                         <div class="col-xs-6 col-md-4 col-lg-3 mb-5">
-                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}/js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
+                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
                                 <div class="image-text">
                                     <img class="img-fluid" src={{ .Params.Logo }} />
                                 </div>
@@ -137,7 +137,7 @@
                     <div class="row justify-content-center">
                         {{ range $index, $element := (where .Site.Pages "Type" "extraGuitarCourse").ByParam "Order" }}
                         <div class="col-xs-6 col-md-4 col-lg-3 mb-5">
-                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}/js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
+                            <div class="portfolio-item{{ if eq .Params.Active false }}-inactive{{ end }} mx-auto" onclick="window.open('{{ .Site.BaseURL }}js/pdfjs/web/viewer.html?file={{ .Params.Course }}');">
                                 <div class="image-text">
                                     <img class="img-fluid" src={{ .Params.Logo }} />
                                 </div>
