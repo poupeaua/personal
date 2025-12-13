@@ -44,7 +44,7 @@
   --bs-dark: #212529;
   --bs-primary-rgb: 52, 58, 64;       /*26, 188, 156; */
   --bs-secondary-rgb: 44, 62, 80;
-  --bs-third-rgd: 21, 150, 125;
+  --bs-third-rgd: 145, 207, 207;  /* the STYLING color for the links in website */
   --bs-success-rgb: 163, 203, 212;
   --bs-info-rgb: 205, 229, 228; /*#13, 202, 240;*/
   --bs-warning-rgb: 255, 193, 7;
