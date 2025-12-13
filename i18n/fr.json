@@ -16,6 +16,9 @@
     "nav": {
         "menu": {
             "other": "Menu"
+        },
+        "ecology": {
+            "other": "Écologie"
         }
     }
  }
