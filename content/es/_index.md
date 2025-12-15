@@ -1,5 +1,5 @@
 ---
-Title: Alexandre Poupeau - Sitio Web Personal
+Title: Alexandre Poupeau - Proyectos Personales & Pasiones
 description: "Un sitio web personal para compartir mis pasiones por el Arte, la Magia, la Música, la Pintura y la Ecología."
 
 iLove: "Hola, me gusta"

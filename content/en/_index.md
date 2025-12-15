@@ -1,5 +1,5 @@
 ---
-Title: Alexandre Poupeau - Personal Website
+Title: Alexandre Poupeau - Personal Projects & Passions
 description: "A personal website sharing my passions for Art, Magic, Music, Painting and Ecology."
 
 iLove: "Hello, I love"
