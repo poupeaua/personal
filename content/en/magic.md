@@ -1,5 +1,7 @@
 ---
-Title: Magic
+Title: Magic - Alexandre Poupeau
+description: "Explore the world of magic, card tricks and my story as a card artist."
+navTitle: Magic
 type: "magic"
 
 carousel:

@@ -1,5 +1,7 @@
 ---
-Title: Music
+Title: Music - Alexandre Poupeau
+description: "Learn guitar and music theory using my free courses material and check my compositions under my artist name, Chill Wind."
+navTitle: Music
 type: "music"
 
 carousel:

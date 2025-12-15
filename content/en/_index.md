@@ -1,5 +1,7 @@
 ---
-Title: Main
+Title: Alexandre Poupeau - Personal Website
+description: "A personal website sharing my passions for Art, Magic, Music, Painting and Ecology."
+
 iLove: "Hello, I love"
 listLove: '[ "Computer Science", "Art", "Magic", "Music", "Painting", "Ecology" ]'
 welcome:

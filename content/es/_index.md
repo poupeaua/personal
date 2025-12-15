@@ -1,5 +1,7 @@
 ---
-Title: Main
+Title: Alexandre Poupeau - Sitio Web Personal
+description: "Un sitio web personal para compartir mis pasiones por el Arte, la Magia, la Música, la Pintura y la Ecología."
+
 iLove: "Hola, me gusta"
 listLove: '[ "la Ciencia de la Computación", "el Arte", "la Magia", "la Música", "la Pintura", "el Pisco Sour", "el Mote con Huesillo", "la Ecología" ]'
 welcome:

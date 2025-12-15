@@ -1,5 +1,7 @@
 ---
-Title: Magia
+Title: Magia - Alexandre Poupeau
+description: "Explora el mundo de la magia, trucos de magia con cartas y mi historia como prestidigitador."
+navTitle: Magia
 type: "magic"
 
 carousel:

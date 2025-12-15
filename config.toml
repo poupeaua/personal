@@ -2,7 +2,7 @@ baseURL = 'https://alexandrepoupeau.com/personal/'
 canonifyURLs = true
 relativeURLs = false
 languageCode = 'en-us'
-title = 'Alexandre Poupeau - Website'
+title = 'Alexandre Poupeau - Personal Website'
 defaultContentLanguage = 'en'
 publishDir = 'docs'
 staticDir = 'static'
@@ -21,7 +21,7 @@ country = 'FRANCE'
 
 [languages]
   [languages.en]
-    title = 'A. Poupeau Website'
+    title = 'Alexandre Poupeau - Personal Website'
     contentDir = "content/en"
     languageName = "English"
     weight = 1
@@ -30,7 +30,7 @@ country = 'FRANCE'
       languageShort = "EN"
       linkedin = 'https://linkedin.com/whoever'
   [languages.fr]
-    title = 'A. Poupeau Site Web'
+    title = 'Alexandre Poupeau - Site Web Personnel'
     contentDir = "content/fr"
     languageName = "Français"
     weight = 2
@@ -41,7 +41,7 @@ country = 'FRANCE'
       [languages.fr.params.navigation]
         help = 'Aide'
   [languages.es]
-    title = 'A. Poupeau Sitio Web'
+    title = 'Alexandre Poupeau - Sitio Web Personal'
     contentDir = "content/es"
     languageName = "Español"
     weight = 3

@@ -1,5 +1,7 @@
 ---
-Title: Magie
+Title: Magie - Alexandre Poupeau
+description: "Explorez le monde de la magie, des tours de cartes et de mon histoire comme cartomagicien."
+navTitle: Magie
 type: "magic"
 
 carousel :

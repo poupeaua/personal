@@ -1,5 +1,7 @@
 ---
-Title: Main
+Title: Alexandre Poupeau - Site Web Personnel
+description: "Un site web personnel pour partager mes passions pour l'Art, la Magie, la Musique, la Peinture et l'Ecologie."
+
 iLove: "Bonjour, j'aime"
 listLove: '[ "la Computer Science", "les Arts", "la Magie", "la Musique", "la Peinture" ]'
 welcome:
