@@ -1,5 +1,7 @@
 ---
-Title: Música
+Title: Música - Alexandre Poupeau
+description: "Aprende a tocar la guitarra y la teoría de la música con mis cursos gratuitos y echa un vistazo a mis composiciones bajo mi nombre artístico, Chill Wind."
+navTitle: Música
 type: "music"
 
 carousel:
@@ -31,7 +33,7 @@ about:
     title: Más información
     experience:
         title: Experiencia musical
-        content1: Llevo más de 15 años tocando la guitarra, he tenido la oportunidad de tocar en diferentes grupos, organizar conciertos y hacer jam.
+        content1: Llevo más de <span id="yearsExpGuitar"></span> años tocando la guitarra, he tenido la oportunidad de tocar en diferentes grupos, organizar conciertos y hacer jam.
         content2: Me encanta aportar de mi paciencia y motivación a la enseñanza. Enseño la guitarra como me hubiera gustado que me enseñaran a mí cuando empecé. Me centro tanto en la práctica como en la teoría musical.
     mao:
         title: Música electrónica

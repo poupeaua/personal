@@ -12,10 +12,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Site Title -->
-    <title>{{ .Site.Title }}</title>
+    {{ partial "opengraph.html" . }}
 
     {{ partial "style.html" . }}
 
+    <!-- Site Title -->
+    <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+
+    <!-- Description -->
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+
     {{ partial "scripts.html" . }}
+
 </head>

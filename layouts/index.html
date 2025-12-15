@@ -1,27 +1,27 @@
 {{ define "main" }}
 
 <!-- Masthead-->
-<header class="masthead bg-secondary text-white text-center">
+<header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         <img class="masthead-avatar mb-5" src="/img/photo-pro.jpeg" alt="avatar" />
         <!-- Masthead Heading-->
         <h1>{{ .Params.iLove }}</h1>
-        <h1 href="" class="text-info typewrite" data-period="2000" data-type={{ .Params.listLove }}>
+        <h1 href="" class="text-third typewrite" data-period="2000" data-type={{ .Params.listLove }}>
             <span class="wrap"></span>
         </h1>
     </div>
 </header>
 
 <!-- About Section-->
-<section class="page-section text-secondary mb-0" id="about">
+<section class="page-section text-primary mb-0" id="about">
     <div class="container">
         <!-- About Section Heading-->
         <h2 class="page-section-heading text-center text-uppercase">{{ $.Param "welcome.base" }}</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="bi bi-house-fill"></i></div>
+            <div class="divider-custom-icon text-primary"><i class="bi bi-house-fill"></i></div>
             <div class="divider-custom-line"></div>
         </div>
         <!-- About Section Content-->

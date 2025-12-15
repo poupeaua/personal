@@ -1,5 +1,7 @@
 ---
-Title: Magic
+Title: Magic - Alexandre Poupeau
+description: "Explore the world of magic, card tricks and my story as a card artist."
+navTitle: Magic
 type: "magic"
 
 carousel:
@@ -20,7 +22,7 @@ experiences:
     title: Experiences
     cardArtist:
         title: Being a Card Artist
-        info:             <p>I started doing card tricks when I was 17 years old. I have been practicing card tricks for more than 12 years now.</p>
+        info:             <p>I started doing card tricks when I was 17 years old. I have been practicing card tricks for more than <span id="yearsExpMagic"></span> years now.</p>
             <p>It all started by taking a deck of playing cards and I fell in love with it instantaneously. I quickly bought my first Bicycle deck and then the story goes.</p>
             <p>Making card tricks was a new way for me to create and innovate. I have always loved creating my own card tricks and techniques.</p>
             <p><b>I have participated in more than 30 events now where I was hired to do magic tricks.</b> These experiences have given me the confidence to produce myself in all kinds of events.</p>

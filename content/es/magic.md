@@ -1,5 +1,7 @@
 ---
-Title: Magia
+Title: Magia - Alexandre Poupeau
+description: "Explora el mundo de la magia, trucos de magia con cartas y mi historia como prestidigitador."
+navTitle: Magia
 type: "magic"
 
 carousel:
@@ -20,7 +22,7 @@ experiences:
     title: Experiencias
     cardArtist:
         title: Ser un Card Artist
-        info:             <p>Empecé a hacer trucos de cartas cuando tenía 17 años. Llevo más de 12 años practicando.</p> <p>
+        info:             <p>Empecé a hacer trucos de cartas cuando tenía 17 años. Llevo más de <span id="yearsExpMagic"></span> años practicando.</p> <p>
             <p>Todo empezó como tomé una baraja de cartas y me enamoré de ella instantáneamente. Rápidamente me compré mi primer mazo Bicycle y a partir de ahí la historia continuó.</p>
             <p>Hacer trucos de cartas fue una nueva forma de crear e innovar para mí.</p>
             <p><b>Hasta el momento he participado en más de 30 eventos donde debía realizar trucos de magia.</b> La gran experiencia que he obtenido me ha dado la confianza que tengo ahora para hacer trucos de magia en cualquier evento y contexto.</p>
