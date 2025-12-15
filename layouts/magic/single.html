@@ -10,19 +10,40 @@
       <div class="carousel-inner">
         <div class="carousel-item active" style="background-image: url('{{ .Site.BaseURL }}img/magic/carousel/fan.jpg'); background-size: cover; background-position: center;">
           <div class="carousel-caption">
-            <h5><a style="text-decoration: none;" href="#engage">{{ $.Param "carousel.carousel1.info" }}</a></h5>
+            <h5>
+                <a href="#engage">
+                    <button class="btn btn-light rounded" style="font-size: large; font-weight: bold;">
+                        {{ $.Param "carousel.carousel1.info" }}  
+                        <i class="bi bi-arrow-down"></i>
+                    </button>
+                </a>
+            </h5>
             <p>{{ $.Param "carousel.carousel1.subinfo" }}</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('{{ .Site.BaseURL }}/img/magic/carousel/xcm.jpg'); background-size: cover; background-position: center;">
           <div class="carousel-caption">
-            <h5><a style="text-decoration: none;" href="#talkAboutMe">{{ $.Param "carousel.carousel3.info" }}</a></h5>
+            <h5>
+                <a href="#talkAboutMe">
+                    <button class="btn btn-light rounded" style="font-size: large; font-weight: bold;">
+                        {{ $.Param "carousel.carousel3.info" }}  
+                        <i class="bi bi-arrow-down"></i>
+                    </button>
+                </a>
+            </h5>
             <p>{{ $.Param "carousel.carousel3.subinfo" }}</p>
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('{{ .Site.BaseURL }}/img/magic/carousel/fan-venin.jpg'); background-size: cover; background-position: center;">
           <div class="carousel-caption">
-            <h5><a style="text-decoration: none;" href="#experiences">{{ $.Param "carousel.carousel2.info" }}</a></h5>
+            <h5>
+                <a href="#experiences">
+                    <button class="btn btn-light rounded" style="font-size: large; font-weight: bold;">
+                        {{ $.Param "carousel.carousel2.info" }}  
+                        <i class="bi bi-arrow-down"></i>
+                    </button>
+                </a>
+            </h5>
             <p>{{ $.Param "carousel.carousel2.subinfo" }}</p>
           </div>
         </div>
@@ -39,15 +60,15 @@
   </header>
 
   <!-- talkAboutMe Section-->
-  <section class="page-section bg-white text-secondary mb-0" id="talkAboutMe">
+  <section class="page-section bg-light text-primary mb-0" id="talkAboutMe">
     <div class="container">
       <!-- talkAboutMe Heading-->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary">{{ $.Param "theyTalkAboutMe.title"}}</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-primary">{{ $.Param "theyTalkAboutMe.title"}}</h2>
 
       <!-- Icon Divider-->
       <div class="divider-custom mb-5">
           <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="bi bi-play-btn-fill"></i></div>
+          <div class="divider-custom-icon text-primary"><i class="bi bi-play-btn-fill"></i></div>
           <div class="divider-custom-line"></div>
       </div>
       
@@ -95,18 +116,18 @@
   </section>
 
   <!-- Engage Section-->
-  <section class="page-section bg-white text-secondary mb-0" id="engage">
+  <section class="page-section bg-light text-primary mb-0" id="engage">
       <div class="container">
           <!-- Engage Section Heading-->
           <h2 class="page-section-heading text-center text-uppercase">{{ $.Param "engage.title" }}</h2>
           <!-- Icon Divider-->
           <div class="divider-custom">
               <div class="divider-custom-line"></div>
-              <div class="divider-custom-icon"><i class="bi bi-person-check-fill"></i></div>
+              <div class="divider-custom-icon text-primary"><i class="bi bi-person-check-fill"></i></div>
               <div class="divider-custom-line"></div>
           </div>
           <!-- Engage Section Content-->
-          <ul class="lead text-center text-secondary" style="list-style-position: inside;">
+          <ul class="lead text-center text-primary" style="list-style-position: inside;">
             <li>{{ $.Param "engage.list.exp" | safeHTML}}</li>
             <li>{{ $.Param "engage.list.events" | safeHTML }}</li>
             <li>{{ $.Param "engage.list.languages" | safeHTML }}</li>

@@ -9,7 +9,7 @@ carousel:
         info: Partager de l'Art
         subinfo: Exposer mes œuvres d'art
     carousel2:
-        info: Cette page n'a qu'un seul but
+        info: Voir mes oeuvres
         subinfo: Vous donner l'envie de commencer à peindre
     carousel3:
         info: Plus d'informations

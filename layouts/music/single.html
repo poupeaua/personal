@@ -9,19 +9,40 @@
         <div class="carousel-inner">
         <div class="carousel-item active" style="background-image: url('{{ .Site.BaseURL }}/img/music/carousel/guitar-zoom.jpg'); background-size: cover; background-position: center;">
             <div class="carousel-caption">
-            <h5><a style="text-decoration: none;" href="#guitarCourseSection">{{ $.Param "carousel.carousel1.info" }}</a></h5>
+            <h5>
+                <a href="#guitarCourseSection">
+                    <button class="btn btn-light rounded" style="font-size: large; font-weight: bold;">
+                        {{ $.Param "carousel.carousel1.info" }}  
+                        <i class="bi bi-arrow-down"></i>
+                    </button>
+                </a>
+            </h5>
             <p>{{ $.Param "carousel.carousel1.subinfo" }}</p>
             </div>
         </div>
         <div class="carousel-item" style="background-image: url('{{ .Site.BaseURL }}/img/music/carousel/home-studio.webp'); background-size: cover; background-position: center;">
             <div class="carousel-caption">
-            <h5><a style="text-decoration: none;" href="#compositionsSection">{{ $.Param "carousel.carousel2.info" }}</a></h5>
+            <h5>
+                <a href="#compositionsSection">
+                    <button class="btn btn-light rounded" style="font-size: large; font-weight: bold;">
+                        {{ $.Param "carousel.carousel2.info" }}  
+                        <i class="bi bi-arrow-down"></i>
+                    </button>
+                </a>
+            </h5>
             <p>{{ $.Param "carousel.carousel2.subinfo" }}</p>
             </div>
         </div>
         <div class="carousel-item" style="background-image: url('{{ .Site.BaseURL }}/img/music/carousel/guitar-and-me.jpg'); background-size: cover; background-position: center;">
             <div class="carousel-caption">
-            <h5><a style="text-decoration: none;" href="#aboutSection">{{ $.Param "carousel.carousel3.info" }}</a></h5>
+            <h5>
+                <a href="#aboutSection">
+                    <button class="btn btn-light rounded" style="font-size: large; font-weight: bold;">
+                        {{ $.Param "carousel.carousel3.info" }}  
+                        <i class="bi bi-arrow-down"></i>
+                    </button>
+                </a>
+            </h5>
             <p>{{ $.Param "carousel.carousel3.subinfo" }}</p>
             </div>
         </div>
@@ -41,11 +62,11 @@
 <section class="page-section portfolio" id="guitarCourseSection"> 
     <div class="container">
         <!-- Guitar Course Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">{{ $.Param "courses.title" }}</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-primary mb-0">{{ $.Param "courses.title" }}</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="bi bi-music-note-list"></i></div>
+            <div class="divider-custom-icon text-primary"><i class="bi bi-music-note-list"></i></div>
             <div class="divider-custom-line"></div>
         </div>
 
@@ -252,18 +273,18 @@
 </section>
 
 <!-- About Section-->
-<section class="page-section bg-white text-white mb-0" id="aboutSection">
+<section class="page-section bg-light text-white mb-0" id="aboutSection">
     <div class="container">
         <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary">{{ $.Param "about.title" }}</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-primary">{{ $.Param "about.title" }}</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="bi bi-question-lg"></i></div>
+            <div class="divider-custom-icon text-primary"><i class="bi bi-question-lg"></i></div>
             <div class="divider-custom-line"></div>
         </div>
         <!-- About Section Content-->
-        <div class="row text-secondary">
+        <div class="row text-primary">
             <div class="col-lg-4 ms-auto">
                 <h4>{{ $.Param "about.experience.title" }}</h4>
                 <p class="lead ">{{ $.Param "about.experience.content1" }}</p>

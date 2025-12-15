@@ -3,7 +3,7 @@ Title: Alexandre Poupeau - Personal Website
 description: "A personal website sharing my passions for Art, Magic, Music, Painting and Ecology."
 
 iLove: "Hello, I love"
-listLove: '[ "Computer Science", "Art", "Magic", "Music", "Painting", "Ecology" ]'
+listLove: '[ "Computer Science", "Art", "Magic", "Music", "Painting", "Ecology", "Mathematics" ]'
 welcome:
     base: "Welcome"
     content1: "Welcome! I made this little website to share my work in different domains."
