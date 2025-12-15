@@ -35,7 +35,7 @@ about:
     title: À propos
     experience:
         title: Expérience musicale
-        content1: Je joue de la guitare depuis plus de 15 ans maintenant, j'ai eu l'occasion de jouer dans différents groupes, d'organiser des concerts et des jams.
+        content1: Je joue de la guitare depuis plus de <span id="yearsExpGuitar"></span> ans maintenant, j'ai eu l'occasion de jouer dans différents groupes, d'organiser des concerts et des jams.
         content2: J'aime mettre ma patience et ma motivation dans l'enseignement de la guitare. J'enseigne la guitare comme j'aurais aimé qu'on me l'enseigne lorsque j'ai commencé. Je me concentre à la fois sur la pratique et la théorie de la musique.
     mao:
         title: Musique électronique

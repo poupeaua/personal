@@ -287,7 +287,7 @@
         <div class="row text-primary">
             <div class="col-lg-4 ms-auto">
                 <h4>{{ $.Param "about.experience.title" }}</h4>
-                <p class="lead ">{{ $.Param "about.experience.content1" }}</p>
+                <p class="lead">{{ $.Param "about.experience.content1" | safeHTML }}</p>
                 <p class="lead">{{ $.Param "about.experience.content2" }}</p>
             </div>
             <div class="col-lg-4 me-auto">
