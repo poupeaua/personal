@@ -9,7 +9,7 @@ staticDir = 'static'
 
 [params]
 author = "Alexandre Poupeau"
-email = "alexandre.poupeau.contact@gmail.com"
+email = "contact@alexandrepoupeau.com"
 siteName = 'A. Poupeau'
 city = 'Lyon'
 country = 'FRANCE'
